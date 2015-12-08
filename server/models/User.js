@@ -9,6 +9,7 @@ var User = new mongoose.Schema({
     phoneNumber: {type: String},
     admin: {type: Boolean, default: false},
     date: {type: Date, default: Date.now},
+    favorites: [{type: mongoose.Schema.Types.ObjectId, ref: 'Movie'}]
     
 });
 

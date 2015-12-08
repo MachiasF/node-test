@@ -2,15 +2,21 @@
   "name": "node-test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.2.21",
+    "bcryptjs": "^2.3.0",
     "body-parser": "^1.14.1",
     "cors": "^2.7.1",
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "mongoose": "^4.2.9",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
   }
 }
