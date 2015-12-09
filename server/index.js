@@ -58,7 +58,6 @@ app.get('/user/auth', function(req, res) {
 // Endpoints
 
 
-
 //Connection
 var mongoUri = config.MONGO_URI;
 var port = config.PORT;
